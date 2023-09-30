@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="imagens/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+
   
   <title>Componente QR</title>
 
@@ -38,7 +40,8 @@
       position: relative;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, 70%);
+
 
       height: 13%;
       width: 13%;
@@ -47,6 +50,7 @@
     }
 
     .img_QR{
+      
       object-fit: fill;
       width: 100%;
       height: 100%;
@@ -55,24 +59,34 @@
     }
 
     .autores { 
+      position: absolute;
+    top: 97%;
+    left: 0%;
     font-size: 11px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    z-index: 2;
     }
 
-    .autores a { color: hsl(228, 45%, 44%); }
+    .autores a { color: rgb(62, 82, 163); }
+
+    h3{
+      text-align: center;
+      font-family: Outfit, 'Lucida Sans', sans-serif;
+    }
+    
+    p{
+      font-size: medium;
+      font-family: Outfit, 'Lucida Sans', sans-serif;
+    }
 
   </style>
 </head>
 <body>
-
+  
   <div class="container_QR">
-    <img class="img_QR" src="imagens/image-qr-code.png" alt="Qr code">
+    <img class="img_QR" src="imagens/qrcode.png" alt="Qr code">
+    <h3>Visite meu github</h3>
+    <p>  Conheça um pouco mais sobre mim e, de lá, acesse outras redes minhas</p>
   </div>
-
-  <p>Improve your front-end skills by building projects</p>
-  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   
   <div class="autores">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
