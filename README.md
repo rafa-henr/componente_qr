@@ -8,4 +8,4 @@ Resultado:
 ![Site com elemento QR](imagens/solução.png)
 
 Link para solução na web:
-(http://rafa-henr.github.io/componente_qr)
+(http://rafa-henr.github.io/componente_qr/)
